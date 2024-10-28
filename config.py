@@ -7,30 +7,30 @@ import re, os
 
 id_pattern = re.compile(r'^.\d+$') 
 
-API_ID = os.environ.get("API_ID", "")
+API_ID = os.environ.get("API_ID", "23508921")
 
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "70e3ec4bc651ba1c64371003e3c04b6c")
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8004400353:AAE5Quuqq0ottoUpZrBpV-Vzrma3DOoZP9c") 
 
-FORCE_SUB = os.environ.get("FORCE_SUB", "VJ_Botz") 
+FORCE_SUB = os.environ.get("FORCE_SUB", "mkvindiaott") 
 
-             # Don't Remove Credit @VJ_Botz
+             # Don't Remove Credit @mkvindiaott
              # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-             # Ask Doubt on telegram @KingVJ01
+             # Ask Doubt on telegram @mkvindiaott
 
-DB_NAME = os.environ.get("DB_NAME", "renamevjbot")     
+DB_NAME = os.environ.get("DB_NAME", "Cluster0")     
 
-DB_URL = os.environ.get("DB_URL", "")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://<surendragiri733>:<surendragiri733>@cluster0.a7ev4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
 FLOOD = int(os.environ.get("FLOOD", "10"))
 
-START_PIC = os.environ.get("START_PIC", "https://te.legra.ph/file/119729ea3cdce4fefb6a1.jpg")
+START_PIC = os.environ.get("START_PIC", "https://envs.sh/AfV.jpg")
 
 ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5606411877').split()]
 
 PORT = os.environ.get("PORT", "8080")
 
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit @mkvindiaott
+# Subscribe YouTube Channel For Amazing Bot @mkvindiaott
+# Ask Doubt on telegram @mkvindiaott
